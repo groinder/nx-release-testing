@@ -62,7 +62,7 @@
   },
   "release": {
     "projectsRelationship": "independent",
-    "projects": ["apps/*"],
+    "projects": ["apps/*", "libs/nx-release-testing/*"],
     "changelog": {
       "projectChangelogs": true
     },

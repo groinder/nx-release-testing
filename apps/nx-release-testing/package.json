@@ -1,5 +1,8 @@
 {
   "name": "nx-release-testing",
   "version": "0.2.0",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "nx-release-testing-lib1": "0.3.0"
+  }
 }
