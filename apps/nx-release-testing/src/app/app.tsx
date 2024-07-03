@@ -9,6 +9,7 @@ export function App() {
   return (
     <div>
       <NxWelcome title="nx-release-testing" />
+      App change
       <NxReleaseTestingLib1 />
       <NxReleaseTestingLib2 />
     </div>
