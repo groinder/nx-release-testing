@@ -59,5 +59,18 @@
         "unitTestRunner": "none"
       }
     }
+  },
+  "release": {
+    "projectsRelationship": "independent",
+    "projects": ["apps/*"],
+    "changelog": {
+      "projectChangelogs": true
+    },
+    "version": {
+      "conventionalCommits": true,
+      "generatorOptions": {
+        "updateDependents": "auto"
+      }
+    }
   }
 }
